@@ -18,18 +18,19 @@ JavaScript, Node, Express, MongoDB, Mongoose, Cors, Dotenv.
 
 ## Change Log
 
+1640 25JUL2022: /books endpoint interfaces with deployed database, supports queries 
 
 ## Estimates
 
-Feature:
+Feature: 2. Storage: As a user, I'd like to view the list of books, so that whenever I visit the page, I can see the a full list of best books.
 
-Duration Estimate:
+Duration Estimate: 2 hours
 
-Start:
+Start: 1540 hrs
 
-Finish:
+Finish: 1640 hrs
 
-Actual Duration:
+Actual Duration: 1 hr
 
 ---
 
