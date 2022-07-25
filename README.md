@@ -1,11 +1,61 @@
-# Start your own "Can of Books" App
+# Can of Books (Backend)
 
-This repository has starter code to begin work on creating your own online bookshelf.
+**Author**: Joshua Frazer
+**Version**: 1.0.0 (increment the patch/fix version number if you make more commits past your first submission)
 
-## What can books do?
+## Overview
+An API for tracking and recommending books.
 
-Books are life-changing. They have the power to enlighten, educate, entertain, heal, and help us grow. Build out this code base to create an web app to track what books have impacted you, and what's recommended to read next.
+## Getting Started
+1. [Clone the repo](https://docs.github.com/en/repositories/creating-and-managing-repositories/cloning-a-repository)
+2. Inside the newly created repo directory, run the command, `npm install`. This will install dependencies.
+3. Create a file named `.env` in the root directory of this project.
+4. In the .env file, set values for PORT= and Mongo connection string (can be received from Atlas).
+5. Run command `npm start`. 
 
-## Use this template
+## Architecture
+JavaScript, Node, Express, MongoDB, Mongoose, Cors, Dotenv.
 
-Clone this repo to your own account with the green "Use this template" button. Then, add any collaborators. Now you are ready to start adding features! Deploy your site to let the world know which books have had the greatest impact on you, and what's recommended. Enjoy!
+## Change Log
+
+
+## Estimates
+
+Feature:
+
+Duration Estimate:
+
+Start:
+
+Finish:
+
+Actual Duration:
+
+---
+
+Feature:
+
+Duration Estimate:
+
+Start:
+
+Finish:
+
+Actual Duration:
+
+---
+
+Feature:
+
+Duration Estimate:
+
+Start:
+
+Finish:
+
+Actual Duration:
+
+---
+
+## Credit and Collaborations
+Partner: 
