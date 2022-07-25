@@ -3,6 +3,8 @@
 require('dotenv').config();
 const express = require('express');
 const cors = require('cors');
+const mongoose = require('mongoose');
+mongoose.connect(process.env.DATABASE_URL);
 
 const app = express();
 app.use(cors());
