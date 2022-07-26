@@ -45,6 +45,17 @@ Finish: 1250
 Actual Duration: 1 hour 5 minutes
 
 ---
+Feature: 1. Create: As a user, I'd like to add a new book to the shelf, so that I can update the list with my own recommendations.
+
+Duration Estimate: 2 hours
+
+Start: 1145
+
+Finish: 1250
+
+Actual Duration: 1 hour 5 minutes 
+
+---
 
 Feature: 2. Delete: As a user, I want to remove books from my list, so that only the most important books are on my shelf.
 
