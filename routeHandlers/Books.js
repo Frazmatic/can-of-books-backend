@@ -49,10 +49,23 @@ class Books {
             response.status(500).send(error.message);
         }
     }
+
+    static updateBook(request, response){
+        const bookID = request.params.id;
+        const b = {
+            title: request.body.title,
+            description: request.body.description,
+            status: request.body.status
+        };
+        BookModel.findOneAndUpdate({_id: bookID}, b, {new: true}, (error, result) => {
+            !(error) ? response.send(result) : response.status(400).send(error.message);
+        });
+    }
 }
 
 router.get('/', Books.getBooks);
 router.post('/', Books.postBooks);
-router.delete('/:id', Books.deleteBook)
+router.delete('/:id', Books.deleteBook);
+router.put('/:id', Books.updateBook);
 
 module.exports = router;

@@ -69,6 +69,16 @@ Actual Duration: 1 hour 15 minutes
 
 ---
 
+Feature: 1. Update: As a user, I want to update book details on my list, so that I can change the book status, or update the book details as I learn more about it.
+
+Duration Estimate: 2 hours
+
+Start: 1300
+
+Finish: 1345
+
+Actual Duration: 45 minutes
+
 ## Credit and Collaborations
 Partner: Mandela Steele-Dadzie
 
